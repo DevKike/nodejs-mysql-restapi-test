@@ -1,6 +1,6 @@
 const express = require("express");
-const employeesRouter = require("./routes/employees.router");
-const indexRouter = require("./routes/index.router");
+const employeesRouter = require("../routes/employees.router");
+const indexRouter = require("../routes/index.router");
 
 const app = express();
 

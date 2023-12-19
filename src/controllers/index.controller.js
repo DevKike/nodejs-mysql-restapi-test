@@ -1,4 +1,4 @@
-const pool = require("../db");
+const pool = require("../db/db");
 
 const ping = async (req, res) => {
   const [result] = await pool.query('SELECT "PONG" AS result');
